@@ -1,0 +1,42 @@
+
+发短信验证：
+curl "http://116.204.97.227:8099/?captchasend;18576646727"
+
+短信验证检查：
+curl "http://116.204.97.227:8099/?captchacheck;18576646727;924793"
+
+用户注册：
+curl "http://116.204.97.227:8099/?apply;111;123456;123456;CN" 
+
+发短信测试：
+curl -d "appid=100107&pass=59bfb1cedfbdb1d8f978deff271bbf1b&mobile=15019401954联】您的验证码是：606184，验证码将于60秒后失效，请尽快使用。&extCode=1" "http://sms.combmobile.com/api.do?act=ms" 
+
+获取公私钥：
+curl -d "flag=getkey&id=Y3loZA%3D%3D&pass=ac481004ac0c48d7853870bee1872918" "http://116.204.97.227:8099/" 
+
+开通VIP：
+curl -d "flag=openvip&id=Y3loZA%3D%3D&pass=ac481004ac0c48d7853870bee1872918&uin=520&name=wayne&phonenumber=18576646727&opentime=123456789" "http://116.204.97.227:8099/" 
+
+
+GPS开关
+curl "http://172.16.1.23:8083/?push;2510536;setting;{"location":{"up_time":15000}};1493365728;1;1495957728;1524901728"
+
+curl "http://120.26.40.141:8083/?push;2520786;c2V0dGluZw==;eyJsb2NhdGlvbiI6eyJ1cF90aW1lIjoxNTAwMH19;1493365728;1;1495957728;1524901728;"
+
+通话时长：
+curl "http://172.16.1.23:8083/?push;200043;c2V0dGluZw==;eyJsb2NhdGlvbiI6eyJ1cF90aW1lIjo1MDAwfX0=;1504167489;1;1506759489;1535703489;1;0;eyJ0YWxrdGltZSI6NjB9"
+
+
+模块控制：  action  1:停止模块运行   2：删除模块   3：删除脚本
+curl -d "flag=modecontrol&id=cyhd&pass=b041b86447c8e8d3713c59fd83082c31&action=1" "http://172.16.1.40:8095/" 
+
+
+给开发者发送appid
+curl "http://116.204.97.227:8099/?developer;18576646727;请你保存好自己的appid:123456"
+
+广播：
+curl "http://10.27.41.112:17790/?value={"msgtime":1505189508,"content":"|uuuuuuuuu","msgtype":2,"uins":"2517437,2520269"}"
+
+请求客户端上传日志：
+curl "http://172.16.1.23:8083/?log;2510814"
+

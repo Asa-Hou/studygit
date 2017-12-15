@@ -1,0 +1,34 @@
+AT 指令
+
+1.打电话         atd18576646727;
+
+2.tts播放测试    at+ctts=2,"正在连接，请稍后"
+
+3.查看tts参数    at+CTTSPARAM？
+
+4. adb shell dmesg >E:\hwq\simcom-src\adb-push/dmesg.txt，抓个log看下
+
+5.加载录音和播放库文件：
+adb shell执行 mount -o rw,remount /，将路径改为可写，
+把libextdmr.so .1库文件 push到板子里，路径为/usr/lib，
+
+bqRecorderCallback 回调函数
+
+
+PC代码查看：  找到.sln文件，用VS打开，加载整个项目代码。
+
+应该类似这样 arm-linux-g++  -c   hello.cc   当然如果有头文件支持要用  -I  头文件目录， -L 库目录 
+然后在 arm-linux-g++  -o  helloworld   hello.o  -l库
+注意的是先要编译成 .o文件再链接成 可执行程序。
+
+
+编译protobuf库。
+在服务器编译生成的库不是ARM的，要通过交叉编译生成ARM的库。
+安装arm-linux-gcc  4.4.3版本，然后交叉编译protobuf源文件，生成protobuf.so的库文件，并将库文件adb push到板子里面，就可以使用了。
+
+通过linux的 readeif -h protobuf.so命令，可以查看库的类型是不是ARM
+
+
+
+网络测试：
+首先要接通板子的网络环境，通过提供的函数接口，pppopen（），打开网络连接，就可以进行网络传输了。

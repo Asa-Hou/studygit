@@ -1,0 +1,112 @@
+一、服务器信息
+
+	服务器IP		ssh端口	账号		密码
+	
+测试环境
+	
+	116.204.97.228
+	172.16.1.68  root  密码：qiuwei
+	
+	172.16.1.22		22		root		cyhd123!
+	172.16.1.23		22		root		ptt.2014Mdc@cyhdgUwF70N
+	172.16.1.40		22		root		ptt.2016mdc1010@#$
+	172.16.1.21	 	22		root		ptt.2016mdc@1010cyhd
+	
+	172.16.1.65  								&^@#0@)&34hahacyhd1128!~MdcHelp4CO0splay#$@10Mc13
+		
+国内环境
+	120.26.40.141		root			EdxssfZ4b+KJkY+hHkB9auwJ2MUNxCzTMzmmuf4Oy6iPzTJWFZ6JVo1ugYbnk3cf
+	121.40.153.57		root			gGUgX2plktt4L5uNnmKbt2OTxFdfxGj1MUU+npyid8AZ0NSMkdZhlcMQM2SZgNs0
+	121.40.125.251	root			3hk5MsS3ngLbem59Bvm9+1NmqlMoTiAp1LNpYzY4mLWIV5CaWK77lHsk/gUwF70N
+	
+香港环境
+	47.90.86.142(group)					root			07Pd1krD3HSWrryuJ9cxIuhZ2/0V1ML101htMiXekmgLn6J67pCLA0vim8WotJsH    
+	47.90.82.101（status）   		root			unSDVkPndrQNGzzXXufn5neiXojrJvvUTzEpaLaCHbL596VssTkK8ItjYCua5VsG
+	47.90.34.243(web)    				root			zS6y8W6WIZCx+MmmuqETK2IZmI7RApyvyRO7oCTN6dO4tMysfE3v2cadKfI4niwF
+	47.90.8.159(jieDian)				root			2016!@$%87=3@cyhd&)#mcPRO&MAOk3&*_LS21&*DAa13<>?hlpo329islx(_3!6)2M3&4haLo
+	 Houquan         HouWeq@1104cyhd
+	
+	
+南非环境
+	196.28.94.119(mysql)		 root				UJMnot~*&%5&*88no0718twepro%&)Mdc1121@#$)
+	196.28.94.121(status)    root      	&^@(_luCY2790hahacyhd0718!~MdcSo@!1121.uoaxvVEsedD
+	196.28.94.122(group)		 root	     	cyhd~#0718%7786Mahopful,nXa11221__MDC@TR268l1i
+	196.28.94.123(web)	    root      	&^@#0@)&34hahacyhd1128!~MdcHelp4CO0splay#$@10Mc13
+	
+单机环境
+116.204.97.227						root 			mdc@cyhd0220
+
+新加坡环境
+								root     Ej1q84225MXHBNgNXf4UOzW9+mA=
+
+二、SVN：
+ https://172.16.1.10/svn/wkl_real_rep/S1_PTT_proj/trunk/backend/msgrs
+
+ 账号：houwenqi		 密码：houwenqi
+
+
+ 三、邮箱
+ 账号：houwenqi@wehd360.com		密码HOUwenqi123
+
+ 四、RTX
+ 账号：houwenqi		密码：hwq123
+
+ 五、企业WEB管理登录密码:	oinom2014
+ 	 
+ WEB小助手地址   http://www.wehd360.com/user_assistant/index.php		账号admin    密码cyhd$#@!
+ 
+ 广告平台		 http://www.wehd360.com/push_admin/index.php?m=&c=Statistic&a=index  用户名： admin@admin.com ? 密码：chuanyihudong#!2015
+ 
+ 运营管理后台、百度地图登陆地址：http://www.ptttalk.com/			http://www.wehd360.com/ptttalk/index.php			用户名：1529191051@qq.com  密码：123456
+ 
+乐悠悠新闻采集后台		http://172.16.1.23:9999/    admin   123
+		 
+香港环境：
+		1.调度平台		http://www.veclinknet.com/home/grouplist/index.html			账号：00@qq.com		密码：ptttalk
+		2.代理平台		http://www.wehd360.com/ptt_org/index.php ?							账号：admin				密码：Lco62O21#@C$y4Hd(,.cw~Fi&23
+		3.运营平台		http://www.wehd360.com/operate_admin/index.php					账号：admin				密码：FriLin%CYHD^&10ond$4&41
+
+国内环境：
+		1.调度平台		http://ops.ptttalk.com/home/fence/index.html						账号：00@qq.com   密码： ptttalk
+		2.代理平台		http://www.ptttalk.com/ptt_org/index.php								账号：admin				密码：1014#@~CyHd(,.cw~!419fir
+		3.运营平台		http://www.ptttalk.com/operate_admin/index.php					账号：admin				密码：FriLin%CYHD^&10ond$4&41
+ 
+ 测试服：
+ 		1.调度平台		http://172.16.1.23:9995/Home/Index/index.html						账号：011@6.com		密码:ptttalk
+		2.运营平台		http://223.255.31.213/operate_admin/login.php						账号：admin				密码：FriLin%CYHD^&10ond$4&41	
+
+ 六、CSDN下载用账号
+ CSDN账号：gkbilqk30514 
+CSDN密码：hejiajaaj 
+邮箱：gkbilqk30514@163.com 
+邮箱密码：hejiaj0aj 
+
+七：数据库
+						测试服：
+										root  						wkl123
+										webserver   			while(1){}
+						正式服：
+									root								cyhd123!		
+									
+									
+八：日志级别
+
+							#define LOG_ALARM   0
+							#define LOG_ERROR   1		/* non-fatal errors */
+							#define LOG_NORMAL  2
+							#define LOG_DEBUG   3		/* suppressed unless DEBUG defined;*/
+							#define LOG_TRACE 	4
+									
+									
+深圳市南山区南头街道大新路创新大厦B栋14楼
+
+192.168.101.20重庆单击版IP。
+
+正式服PC客户端 
+账号：   diaodu@ptttalk.com   密码： ptttalk
+
+
+qq邮箱授权码：   zsftfcwywzlybjdc
+
+《AI：人工智能的本质与未来》《世界著名计算机教材精选·人工智能:一种现代的方法(第3版)》《深度学习》《人工智能狂潮：机器人会超越人类吗？》
+<奇点临近>   《终极算法》
